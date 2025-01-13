@@ -1,0 +1,20 @@
+n_wrench_system_base:
+  ros__parameters:
+    use_dualshock4: True
+
+    wrench_topic_name: "joy_wrench_test"
+    wrench_stamped_topic_name: "joy_wrench_stmp_test"
+
+    send_stamped: True
+    frame_id: base_link
+
+    max_force: 1
+    max_torque: 1
+
+    ds4_force_x: axis_left_y
+    ds4_force_y: axis_left_x
+    ds4_force_z: axis_right_y
+
+    ds4_torque_x: axis_right_x
+    ds4_torque_y: None
+    ds4_torque_z: None
