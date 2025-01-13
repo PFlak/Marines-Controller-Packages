@@ -2,8 +2,8 @@ n_wrench_system_base:
   ros__parameters:
     use_dualshock4: True
 
-    wrench_topic_name: "joy_wrench_test"
-    wrench_stamped_topic_name: "joy_wrench_stmp_test"
+    wrench_topic_name: "joy_wrench"
+    wrench_stamped_topic_name: "joy_wrench_stmp"
 
     send_stamped: True
     frame_id: base_link
