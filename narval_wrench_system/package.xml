@@ -3,7 +3,7 @@
 <package format="3">
   <name>narval_wrench_system</name>
   <version>0.0.1</version>
-  <description>ToDo...</description>
+  <description>Handling joystick input and create wrench.</description>
   <maintainer email="piotrflak@student.agh.edu.pl">Piotr Flak</maintainer>
   <license>Apache-2.0</license>
 
@@ -16,6 +16,7 @@
   <exec_depend>ds4_driver_msgs</exec_depend>
   <exec_depend>ds4_driver</exec_depend>
   <exec_depend>launch_ros</exec_depend>
+  <exec_depend>python-numpy</exec_depend>
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>
